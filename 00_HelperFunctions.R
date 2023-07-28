@@ -67,7 +67,9 @@ theme_set(
     )
 ) # This alters the default ggplot design
 
-TFA.colors <- c("#091f2c", "#0097a9", "#8c8279", "#cb333b", "#ffD700", "firebrick") # Official T4A colors
+TFA.colors <- c("#091f2c", "#690080", "#a71ada", "#f9c428", "#03a64b", "#9cd91a","#D2D2D7", "#F2F2F2") # Offical T4A colors as of 24 June 2023
+
+TFA.colors_2023 <- c("#091f2c", "#0097a9", "#8c8279", "#cb333b", "#ffD700", "firebrick") # Official T4A colors
 
 vizNAs <- function(dataframe, grouping_var){
   dataframe %>% 
